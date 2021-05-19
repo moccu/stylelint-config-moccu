@@ -18,5 +18,8 @@
   },
   "peerDependencies": {
     "stylelint": "^13.8.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.2.15"
   }
 }
