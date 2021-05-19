@@ -68,6 +68,8 @@ module.exports = {
 				'px',
 				'em',
 				'rem',
+				'vh',
+				'vw',
 				'%'
 			],
 			'padding': [
@@ -280,6 +282,8 @@ module.exports = {
 			'word-break',
 			'word-spacing',
 			'word-wrap'
-		]
+		],
+		
+		'scss/at-mixin-pattern': '^[a-z]+(-?[a-z0-9]+)+$'
 	}
 }
