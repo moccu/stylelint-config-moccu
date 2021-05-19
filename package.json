@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "Moccu GmbH & Co. KG",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moccu/stylelint-config-moccu.git"
+  },
   "keywords": [
     "stylelint",
     "stylelint-config"
