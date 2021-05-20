@@ -4,4 +4,4 @@
 .eslintignore
 .nvmrc
 .temp
-test
+tests

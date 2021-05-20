@@ -1,0 +1,83 @@
+$color-link: #FF0000;
+$color-base: #FFFFFF;
+$font-family: -apple-system, Roboto, Helvetica, Arial, sans-serif;
+$social-icons: (
+	'facebook': #4267B2,
+	'twitter': #1DA1F2,
+	'youtube': #FF0000,
+	'instagram': #405DE6
+);
+
+@mixin font-bold() {
+	font-weight: 500;
+}
+
+@mixin mq($min) {
+	@media screen and (min-width: $min) {
+		@content;
+	}
+}
+
+@import url('x.css');
+
+html {
+	box-sizing: border-box;
+	font-family: $font-family;
+	font-size: 16px;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+a {
+	@include font-bold();
+	display: inline-block;
+	padding: 1rem;
+	color: $color-link;
+	font: $font-family;
+
+	@include mq(40em) {
+		font-size: 1.25rem;
+	}
+
+	&::after {
+		content: '→';
+		background-image: url('x.svg') no-repeat 0 0;
+	}
+}
+
+/* Single-line comment */
+.foo {
+	position: absolute;  // EOL comment
+	top: 0 !important;
+	left: calc(calc(1em * 2) / 3);
+
+	/**
+	 * Multi-line comment
+	 */
+	&-bar {
+		transition:
+			color 0.3s ease-out,
+			opacity 0.3s ease-out;
+		transform: translate(1, 1) scale(1.5);
+		margin: 1rem 0 0;
+		width: 2rem;
+		height: 2rem;
+	}
+
+	+ .baz {
+		background: linear-gradient($color-base, rgba(0, 0, 0, 0.8));
+	}
+}
+
+@each $icon, $color in $social-icons {
+	.#{$icon} {
+		color: $color;
+	}
+}
