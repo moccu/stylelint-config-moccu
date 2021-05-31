@@ -23,7 +23,6 @@
     "stylelint": "^13.8.0"
   },
   "devDependencies": {
-    "postcss": "^8.2.15",
     "stylelint": "^13.13.1"
   }
 }
