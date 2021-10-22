@@ -80,7 +80,6 @@ module.exports = {
 			]
 		},
 		'font-family-no-duplicate-names': true,
-		'function-calc-no-invalid': true,
 		'function-calc-no-unspaced-operator': true,
 		'function-comma-newline-before': 'never-multi-line',
 		'function-comma-newline-after': 'never-multi-line',
@@ -283,7 +282,7 @@ module.exports = {
 			'word-spacing',
 			'word-wrap'
 		],
-		
+
 		'scss/at-mixin-pattern': '^[a-z]+(-?[a-z0-9]+)+$'
 	}
 }
