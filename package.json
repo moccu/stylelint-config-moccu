@@ -17,12 +17,12 @@
     "test": "stylelint \"./tests/**/*.{css,scss}\" --config index.js"
   },
   "dependencies": {
-    "stylelint-config-sass-guidelines": "^8.0.0"
+    "stylelint-config-sass-guidelines": "^9.0.1"
   },
   "peerDependencies": {
-    "stylelint": "^13.8.0"
+    "stylelint": "^14.0.1"
   },
   "devDependencies": {
-    "stylelint": "^13.13.1"
+    "stylelint": "^14.0.1"
   }
 }
