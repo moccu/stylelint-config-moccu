@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-	extends: 'stylelint-config-sass-guidelines',
+	extends: '@moccu/stylelint-config',
 	rules: {
 		'at-rule-no-unknown': [
 			true,

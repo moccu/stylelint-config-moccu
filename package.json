@@ -2,7 +2,11 @@
   "name": "@moccu/stylelint-config",
   "version": "0.0.6",
   "description": "The stylelint config we use at Moccu.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "tailwindcss"
+  ],
   "author": "Moccu GmbH & Co. KG",
   "license": "MIT",
   "repository": {
@@ -14,7 +18,7 @@
     "stylelint-config"
   ],
   "scripts": {
-    "test": "stylelint \"./tests/**/*.{css,scss}\" --config index.js"
+    "test": "stylelint \"./tests/**/*.{css,scss}\" --config lib/index.js"
   },
   "dependencies": {
     "stylelint-config-sass-guidelines": "^9.0.1"
