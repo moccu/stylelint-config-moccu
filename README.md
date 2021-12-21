@@ -22,6 +22,14 @@ Set the `stylelint` config to:
 }
 ```
 
+#### TailwindCSS
+
+```
+{
+  "extends": "@moccu/stylelint-config/tailwindcss"
+}
+```
+
 ## License
 
 [MIT](./LICENSE)
