@@ -1,6 +1,6 @@
 {
   "name": "@moccu/stylelint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "The stylelint config we use at Moccu.",
   "main": "lib/index.js",
   "files": [
