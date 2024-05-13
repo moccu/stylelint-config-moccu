@@ -17,7 +17,6 @@ module.exports = {
 				]
 			}
 		],
-		'declaration-block-trailing-semicolon': null,
 		'no-descending-specificity': null,
 		'scss/at-rule-no-unknown': null
 	}
