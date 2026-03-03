@@ -1,11 +1,11 @@
-$color-link: #FF0000;
-$color-base: #FFFFFF;
+$color-link: #ff0000;
+$color-base: #ffffff;
 $font-family: -apple-system, Roboto, Helvetica, Arial, sans-serif;
 $social-icons: (
-	'facebook': #4267B2,
-	'twitter': #1DA1F2,
-	'youtube': #FF0000,
-	'instagram': #405DE6
+	'facebook': #4267b2,
+	'twitter': #1da1f2,
+	'youtube': #ff0000,
+	'instagram': #405de6
 );
 
 @mixin font-bold() {
